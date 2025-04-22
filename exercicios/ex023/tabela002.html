@@ -18,7 +18,7 @@
             font-size: 1em;
             font-weight: 600;
             padding: 10px;
-            background-color: rgba(178, 34, 34, 0.507);
+            background-color: bisque;
 
         }
 
@@ -31,17 +31,22 @@
             padding: 10px;
         }
 
-        td {
-            background-color: rgba(178, 34, 34, 0.192);
-        }
-
         td.num {
             text-align: right;
         }
 
         thead, tfoot {
-            background-color: firebrick;
+            background-color: rgba(70, 131, 180, 0.849);
             color: aliceblue;
+        }
+
+        tbody > tr:nth-child(odd) /* (2n+1) */{
+            background-color: rgba(255, 228, 196, 0.39);
+
+        }
+
+        tbody > tr:nth-child(even) /* (2n) */{
+            background-color: rgba(70, 131, 180, 0.212);
         }
     </style>
 </head>
