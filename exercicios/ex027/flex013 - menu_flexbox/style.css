@@ -26,6 +26,7 @@ header {
 
 header > h1 {
     flex: 0 0 200px;
+    text-shadow: 2px 2px 0px rgb(112, 69, 69);
 }
 
 header > nav {
@@ -57,3 +58,4 @@ main {
     border-radius: 12px;
     box-shadow: 2px 2px 2px rgb(153, 112, 112);
 }
+
